@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "max_len": 300,
+  "min_freq": 3,
+  "emb_dim": 64,
+  "n_filters": 128,
+  "kernel_sizes": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "dropout": 0.3,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "batch_size": 128,
+  "epochs": 15,
+  "vocab_size": 454,
+  "best_epoch": 15,
+  "threshold": 0.51,
+  "val_f1": 0.9539078156312625
+}
